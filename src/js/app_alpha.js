@@ -1,5 +1,10 @@
-(function (angular, undefined) {
+(function (angular, document, undefined) {
   "use strict";
+
+  /*
+   * App Alpha represents the end-customer's application. They are probably taking
+   * advantage of all the default bindings and boostrapping of Angular.
+   */
 
   var appAlpha = angular.module("Alpha", []);
 
@@ -15,5 +20,4 @@
 
   });
 
-
-})(window.angular);
+})(window.angular, document);
