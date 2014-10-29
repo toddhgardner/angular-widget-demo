@@ -9,7 +9,7 @@
   var element = document.getElementById("beta");
   var appBeta = angular.module("Beta", []);
 
-  appBeta.controller("FruitListCtrl", function ($scope) {
+  appBeta.controller("BetaFruitListCtrl", function ($scope) {
 
     $scope.fruits = [
       "mango",
@@ -23,4 +23,4 @@
 
   angular.bootstrap(element, ["Beta"]);
 
-})(window.angular, document);
+})(window.cangular, document);
