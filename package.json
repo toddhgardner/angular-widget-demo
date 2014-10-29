@@ -1,0 +1,18 @@
+{
+  "name": "angular-widget-demo",
+  "version": "0.0.1",
+  "description": "A proof-of-concept for multiple applications and widgets built with Angular on a single page",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toddhgardner/angular-widget-demo.git"
+  },
+  "author": "Todd Gardner <todd@wocketware.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toddhgardner/angular-widget-demo/issues"
+  }
+}
